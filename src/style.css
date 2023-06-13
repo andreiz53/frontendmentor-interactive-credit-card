@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+:root {
+  --clr-primary: #21092f;
+  --clr-error: #ff5050;
+  --clr-neutral-100: #8f8694;
+  --clr-neutral-200: #dfdee0;
+  --clr-white: #ffffff;
+
+  --grad-primary: linear-gradient(163.95deg, #6348fe 4.74%, #610595 88.83%);
+}
