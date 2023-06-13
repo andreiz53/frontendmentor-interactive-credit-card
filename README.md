@@ -24,9 +24,7 @@ Users should be able to:
 - See hover, active, and focus states for interactive elements on the page
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://cosmic-phoenix-63cf6b.netlify.app/
 
 ## My process
 
