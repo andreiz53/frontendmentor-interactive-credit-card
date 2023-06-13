@@ -6,7 +6,7 @@
       <div class="main-row">
         <div class="left-col">
           <div class="card front">
-            <div class="cirlces">
+            <div class="circles">
               <div class="circle-big"></div>
               <div class="circle-small"></div>
             </div>
@@ -28,37 +28,61 @@
           <form>
             <div class="form-row">
               <label for="name">CARDHOLDER NAME</label>
-              <input
-                type="text"
-                name="name"
-                id="name"
-                placeholder="e.g. Jane Appleseed"
-              />
+              <span class="input-wrapper">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="e.g. Jane Appleseed"
+                />
+              </span>
             </div>
             <div class="form-row">
               <label for="number">CARD NUMBER</label>
-              <input
-                type="number"
-                name="number"
-                id="number"
-                placeholder="e.g. 1234 5678 9123 0000"
-              />
+              <span class="input-wrapper">
+                <input
+                  type="number"
+                  name="number"
+                  id="number"
+                  placeholder="e.g. 1234 5678 9123 0000"
+                />
+              </span>
             </div>
             <div class="form-row split-two">
               <div class="left">
                 <label for="month">Exp. Date (MM/YY)</label>
                 <div class="inputs-container">
-                  <input type="number" name="month" id="month" />
-                  <input type="number" name="year" id="year" />
+                  <span class="input-wrapper">
+                    <input
+                      type="number"
+                      name="month"
+                      id="month"
+                      placeholder="MM"
+                    />
+                  </span>
+                  <span class="input-wrapper"
+                    ><input
+                      type="number"
+                      name="year"
+                      id="year"
+                      placeholder="YY"
+                  /></span>
                 </div>
               </div>
               <div class="right">
                 <label for="cvc">CVC</label>
-                <input type="number" name="cvc" id="cvc" />
+                <span class="input-wrapper">
+                  <input
+                    type="number"
+                    name="cvc"
+                    id="cvc"
+                    placeholder="e.g. 123"
+                  />
+                </span>
               </div>
             </div>
             <div class="form-actions">
-              <button type="submit">Confirm</button>
+              <button type="submit" id="submit">Confirm</button>
             </div>
           </form>
         </div>
